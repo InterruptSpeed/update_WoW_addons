@@ -38,7 +38,7 @@ if __name__ == '__main__':
     # obviously this should be loaded from a file and looped over and/or done concurrently
     download_to_file("https://addon.theunderminejournal.com/TheUndermineJournal.zip", tmp_path + "/TheUndermineJournal.zip")
     unzip_file(tmp_path + "/TheUndermineJournal.zip", tmp_path)
-    copy_and_overwrite(tmp_path + "/TheUndermineJournal", addon_home + "/Interface/AddOns/TheUndermineJournal")
+    copy_and_overwrite(tmp_path + "/TheUndermineJournal", addon_home + "/TheUndermineJournal")
     print(addon_home + "/TheUndermineJournal updated!")
 
     download_to_file("https://www.curseforge.com/wow/addons/auctionator/download/2609812/file", tmp_path + "/Auctionator.zip")
